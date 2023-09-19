@@ -17,3 +17,33 @@ ol,
 menu {
     list-style: none;
 }
+
+/* GENERAL SETTING*/
+
+body {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1;
+}
+
+img {
+    max-width: 100%;
+}
+
+figure > img {
+    display: block;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+}
+
+:root {
+    --dark-blue:#080B12;
+    --blue: #141922;
+    --light-gray: #D2D2D2;
+    --gray: #7D7F84;
+    --dark-grey: #282828;
+    --lime: #ADFF2F;
+}
