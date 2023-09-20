@@ -24,6 +24,7 @@ body {
     font-size: 16px;
     font-weight: 300;
     line-height: 1;
+    color: white;
 }
 
 img {
@@ -47,3 +48,62 @@ figure > img {
     --dark-grey: #282828;
     --lime: #ADFF2F;
 }
+
+/* APP-TOOLBAR */
+
+.app__toolbar {
+    background-color: var(--dark-grey);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 10px 25px 10px;
+}
+
+.toolbar {
+    display: flex;
+}
+
+.toolbar-display {
+    gap: 28px;
+}
+
+.song-display {
+    display: flex;
+    gap: 10px;
+}
+
+.song-display .feature-image {
+    width: 28px;
+}
+
+.icon-box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.main-toolbar {
+    flex-direction: column;
+    flex-basis: 35%;
+    gap: 15px;
+}
+
+.main-toolbar .menu {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-toolbar .play-button {
+    padding: 0 10px;
+    font-size: 30px;
+}
+
+.toolbar__time {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
