@@ -49,6 +49,12 @@ figure > img {
     --lime: #ADFF2F;
 }
 
+.app {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 /* APP-TOOLBAR */
 
 .app__toolbar {
