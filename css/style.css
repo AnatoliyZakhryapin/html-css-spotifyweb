@@ -64,7 +64,7 @@ figure > img {
 }
 
 
-/* MAIN-CONTAINER */
+/* APP-CONTENT */
 
 .app__content {
     flex-grow: 1;
@@ -79,6 +79,11 @@ figure > img {
     flex-grow: 1;
 }
 
+/* app-sidebar */
+
+.app__sidebar {
+    background-color: black;
+}
 
 /* APP-TOOLBAR */
 
