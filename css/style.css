@@ -162,6 +162,23 @@ figure > img {
 .main-toolbar .time-line {
     width: 130px;
 }
+
 .mini-toolbar .time-line {
     width: 85px;
+}
+
+.song-display .name-song, 
+.toolbar-display .icon-box {
+    color: var(--gray);
+}
+
+    /* HOVER RULES */
+
+.play-button:hover {
+    scale: 1.2;
+}
+
+.song-display .name-song:hover, 
+.toolbar-display .icon-box i:hover {
+    color: white;
 }
