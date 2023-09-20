@@ -98,6 +98,11 @@ figure > img {
     align-items: center;
 }
 
+.nav-menu a {
+    display: flex;
+    gap: 10px;
+}
+
 .user-account{
     display: flex;
     flex-direction: column;

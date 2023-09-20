@@ -22,6 +22,13 @@
     .app__sidebar {
         padding: 20px 20px 10px 20px;
     }
+
+    .nav-menu {
+        align-items: flex-start;
+    }
+
+
+
 }
 
 /* Medium devices (tablets, 768px and up) */
