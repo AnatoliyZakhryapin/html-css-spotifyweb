@@ -54,6 +54,13 @@ figure > img {
     display: flex;
     flex-direction: column;
 }
+
+.app, 
+.app__main-container,
+.app__toolbar {
+    overflow: hidden;
+}
+
 /* MAIN-CONTAINER */
 
 .app__main-container {
