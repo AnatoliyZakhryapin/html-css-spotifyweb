@@ -68,11 +68,11 @@ figure > img {
     display: flex;
 }
 
-.app__content .nav-menu {
+.app__content .app__sidebar {
     flex-shrink: 0;
 }
 
-.app__content .main-content {
+.app__content .app__main-content {
     flex-grow: 1;
 }
 

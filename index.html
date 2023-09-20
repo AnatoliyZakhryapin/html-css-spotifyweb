@@ -26,17 +26,17 @@
 
         <!--Start app-toolbar-->
         <aside class="app__toolbar">
-            <div class="toolbar toolbar-display">
-                <div class="song-display">
+            <div class="album-preview">
+                <div class="album">
                     <figure class="feature-image">
                         <img src="./img/sinister.jpeg" alt="">
                     </figure>
-                    <div class="song-display__content">
-                        <h4 class="singer">Sinister</h4>
-                        <p class="name-song">Brano Nome</p>
+                    <div class="album-description">
+                        <h4 class="author">Sinister</h4>
+                        <p class="track-name">Brano Nome</p>
                     </div>
                 </div>
-                <div class="icon-box">
+                <div class="album-controls">
                     <a href="">
                         <i class="fa-regular fa-heart"></i>
                     </a>
@@ -46,8 +46,8 @@
                 </div>
             </div>
 
-            <div class="toolbar main-toolbar">
-                <div class="toolbar__menu">
+            <div class="track-player">
+                <div class="player-menu">
                     <ul class="menu">
                         <li class="list-item">
                             <a href="">
@@ -76,41 +76,48 @@
                         </li>
                     </ul>
                 </div>
-                <div class="toolbar__time">
-                    <div class="time-remaining">
+                <div class="track-timeline">
+                    <div class="time time-current">
                         <p>0:25</p>
                     </div>
-                    <div class="time-line">
-                        <div class="line">
-                            <div class="line-timing"></div>
-                        </div>
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                        <div class="progress-handler"></div>
                     </div>
-                    <div class="time-total">
+                    <div class="time time-total">
                         <p>4:35</p>
                     </div>
 
                 </div>
             </div>
-            <div class="toolbar mini-toolbar">
-                <div class="toolbar__menu">
-                    <div class="menu">
-                        <a href="">
-                            <i class="fa-solid fa-bars"></i>
-                        </a>
-                        <a href="">
-                            <i class="fa-solid fa-display"></i>
-                        </a>
-                        <a href="">
-                            <i class="fa-solid fa-volume-high"></i>
-                        </a>
-                    </div>
-                    <div class="toolbar__time">
-                        <div class="time-line">
-                            <div class="line">
-                                <div class="line-timing"></div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="track-controls">
+                <div class="player__menu">
+                    <ul class="menu">
+                        <li class="list-item">
+                            <a href="">
+                                <i class="fa-solid fa-bars"></i>
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a href="">
+                                <i class="fa-solid fa-display"></i>
+                            </a>
+                        </li>
+                        <li class="list-item play-button">
+                            <a href="">
+                                <i class="fa-solid fa-volume-high"></i>
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a href="">
+                              
+                            </a>
+                        </li>
+                        <li class="progress-bar">
+                            <div class="progress"></div>
+                            <div class="progress-handler"></div>
+                        </li>
+                    </ul>
                 </div>
                 
                 
