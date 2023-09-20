@@ -103,6 +103,7 @@ figure > img {
 .toolbar__time {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .mini-toolbar .toolbar__menu {
