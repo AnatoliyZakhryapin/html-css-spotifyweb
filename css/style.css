@@ -115,6 +115,10 @@ figure > img {
     display: none;
 }
 
+.logo {
+    width: 135px;
+}
+
 .logo-small {
     width: 30px;
 }
