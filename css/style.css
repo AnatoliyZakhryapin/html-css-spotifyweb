@@ -48,7 +48,7 @@ figure > img {
     --dark-grey: #282828;
     --lime: #ADFF2F;
     --progress: 25%;
-    --sidebar-width: 230px;
+    --sidebar-width: 260px;
 }
 
 .app {
@@ -93,6 +93,7 @@ figure > img {
 .album-preview {
     display: flex;
     gap: 28px;
+    align-items: center;
 }
 
 .album {
@@ -102,7 +103,7 @@ figure > img {
 }
 
 .album .feature-image {
-    width: 28px;
+    width: 30px;
     flex-shrink: 0;
 }
 
@@ -113,8 +114,13 @@ figure > img {
 .album-controls {
     display: flex;
     gap: 10px;
-    flex-wrap: wrap;
+    flex-direction: column;
     color: var(--gray);
+}
+
+.album-preview {
+    flex-basis: var(--sidebar-width);
+    padding: 0px 20px 0px 10px;
 }
 
 /* track-player */
@@ -168,9 +174,9 @@ figure > img {
 
 /* track-controls */
 
-.album-preview, .track-controls {
+.track-controls {
     flex-basis: var(--sidebar-width);
-    padding: 0px 10px;
+    padding: 0px 10px 0px 20px;
 }
 
 .track-controls .menu {
