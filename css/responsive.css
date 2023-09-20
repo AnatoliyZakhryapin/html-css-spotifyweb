@@ -1,7 +1,22 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
+    .app__sidebar {
+        width: 230px;
+    }
 
+    .sidebar-section.playlist,
+    .sidebar-logo .logo,
+    .nav-menu .list-description,
+    .section-dowland-app .description-action,
+    .section-create-list .description-action,
+    .account-description .user-name {
+    display: block;
+    }
+
+    .sidebar-logo .logo-small {
+        display: none;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
