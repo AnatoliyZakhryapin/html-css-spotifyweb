@@ -95,6 +95,7 @@ figure > img {
 
 .song-display .feature-image {
     width: 28px;
+    flex-shrink: 0;
 }
 
 .icon-box {
@@ -172,7 +173,7 @@ figure > img {
     color: var(--gray);
 }
 
-    /* HOVER RULES */
+/* HOVER RULES */
 
 .play-button:hover {
     scale: 1.2;
