@@ -107,6 +107,8 @@ figure > img {
 
 .mini-toolbar .toolbar__menu {
     display: flex;
+    align-items: center;
+    gap: 7px;
 }
 
 .mini-toolbar .menu {
@@ -114,4 +116,22 @@ figure > img {
     gap: 8px;
 }
 
+.toolbar__time .time-line {
+    
+}
 
+.time-line .line {
+    width: 85px;
+    height: 4px;
+    background-color: var(--gray);
+    position: relative;
+}
+
+.time-line .line-timing {
+    width: 17px;
+    height: 4px;
+    background-color: var(--light-gray);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
