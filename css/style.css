@@ -56,23 +56,23 @@ figure > img {
 }
 
 .app, 
-.app__main-container,
+.app__content,
 .app__toolbar {
     overflow: hidden;
 }
 
 /* MAIN-CONTAINER */
 
-.app__main-container {
+.app__content {
     flex-grow: 1;
     display: flex;
 }
 
-.app__main-container .nav-menu {
+.app__content .nav-menu {
     flex-shrink: 0;
 }
 
-.app__main-container .main-content {
+.app__content .main-content {
     flex-grow: 1;
 }
 
