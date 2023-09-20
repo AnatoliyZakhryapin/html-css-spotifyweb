@@ -1,6 +1,7 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
+
     .app__sidebar {
         width: 230px;
     }
@@ -17,21 +18,29 @@
     .sidebar-logo .logo-small {
         display: none;
     }
+
+    .app__sidebar {
+        padding: 20px 20px 10px 20px;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+
     .album-preview {
         gap: 40px;
     }
+
     .album,
     .track-controls .menu,
     .album-controls {
         gap: 13px;
     }
+
     .album-controls {
         flex-direction: row;
     }
+    
 }
 
 /* Large devices (desktops, 992px and up) */
