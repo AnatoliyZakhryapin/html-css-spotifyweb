@@ -85,6 +85,19 @@ figure > img {
     background-color: black;
 }
 
+.user-account{
+    margin: auto;
+}
+
+.sidebar-section.playlist,
+.sidebar-logo .logo,
+.nav-menu .list-description,
+.section-dowland-app .description-action,
+.section-create-list .description-action,
+.account-description .user-name {
+    display: none;
+}
+
 /* APP-TOOLBAR */
 
 .app__toolbar {
