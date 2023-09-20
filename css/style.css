@@ -106,10 +106,15 @@ figure > img {
     flex-shrink: 0;
 }
 
+.track-name {
+    color: var(--gray);
+}
+
 .album-controls {
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
+    color: var(--gray);
 }
 
 /* track-player */
@@ -174,18 +179,13 @@ figure > img {
     gap: 8px;
 }
 
-.song-display .name-song, 
-.toolbar-display .icon-box {
-    color: var(--gray);
-}
-
 /* HOVER RULES */
 
 .play-button:hover {
     scale: 1.2;
 }
 
-.song-display .name-song:hover, 
-.toolbar-display .icon-box i:hover {
+.track-name:hover, 
+.album-controls i:hover {
     color: white;
 }
