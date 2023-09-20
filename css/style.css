@@ -58,7 +58,17 @@ figure > img {
 
 .app__main-container {
     flex-grow: 1;
+    display: flex;
 }
+
+.app__main-container .nav-menu {
+    flex-shrink: 0;
+}
+
+.app__main-container .main-content {
+    flex-grow: 1;
+}
+
 
 /* APP-TOOLBAR */
 
