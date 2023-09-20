@@ -105,5 +105,13 @@ figure > img {
     justify-content: space-between;
 }
 
+.mini-toolbar .toolbar__menu {
+    display: flex;
+}
+
+.mini-toolbar .menu {
+    display: flex;
+    gap: 8px;
+}
 
 
