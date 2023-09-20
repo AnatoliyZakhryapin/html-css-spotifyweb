@@ -95,6 +95,7 @@ figure > img {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    align-items: center;
 }
 
 .user-account{
@@ -112,6 +113,15 @@ figure > img {
 .section-create-list .description-action,
 .account-description .user-name {
     display: none;
+}
+
+.logo-small {
+    width: 30px;
+}
+
+.nav-menu img, 
+.account-description img {
+    width: 20px;
 }
 
 /* APP-TOOLBAR */
