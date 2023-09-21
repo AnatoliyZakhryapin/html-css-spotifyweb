@@ -255,6 +255,7 @@ figure > img {
 
 .row-content {
     flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
 .card .feature-image {
