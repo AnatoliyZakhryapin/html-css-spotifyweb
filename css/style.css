@@ -131,10 +131,15 @@ figure > img {
     text-transform: uppercase;
 }
 
+.playlist i {
+    font-size: 40px;
+}
+
 .section-create-list {
     display: flex;
     gap: 10px;
     margin-bottom: 23px;
+    align-items: center;
 }
 
 .sidebar-section .section-list {
