@@ -292,7 +292,7 @@ figure > img {
     row-gap: 45px;
     flex-wrap: wrap;
     text-transform: uppercase;
-
+    color: var(--gray);
 }
 
 /* APP-TOOLBAR */
