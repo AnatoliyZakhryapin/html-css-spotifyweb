@@ -32,11 +32,13 @@
         align-items: flex-start;
     }
     
-    .section-dowland-app::after {
+    .section-dowland-app .button a::after {
         content: "";
-        width: 20px;
-        height: 4px;
-        background-color: var(--light-gray);
+        display: block;
+        width: 200px;
+        height: 2px;
+        background-color: var(--light-gray);  
+        position: absolute;
     }
 
 }
