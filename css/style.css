@@ -60,6 +60,7 @@ figure > img {
 
 .container-small {
     width: 620px;
+    margin: 0 auto;
 }
 
 :root {
@@ -213,7 +214,10 @@ figure > img {
 
 .app__main-content {
     background-color: var(--blue);
+    padding: 20px 10px;
 }
+
+/* main__content */
 
 .row-content {
     flex-wrap: wrap;
@@ -236,6 +240,15 @@ figure > img {
     margin-bottom: 30px;
 }
 
+.main__content .nav-menu {
+    flex-direction: row;
+    gap: 25px;
+    justify-content: center;
+    margin-bottom: 45px;
+    row-gap: 45px;
+    flex-wrap: wrap;
+    
+}
 
 /* APP-TOOLBAR */
 
