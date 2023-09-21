@@ -253,6 +253,14 @@ figure > img {
     height: 100%;
 }
 
+.row-title .title {
+    margin-bottom: 10px;
+}
+
+.row-title .description {
+    color: var(--gray);
+}
+
 .row-content {
     flex-wrap: wrap;
     margin-bottom: 20px;
