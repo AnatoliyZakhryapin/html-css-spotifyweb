@@ -57,9 +57,17 @@
     .album-controls {
         flex-direction: row;
     }
+
+    .col-m-3 {
+        flex-basis: calc((100% / 12) * 3);;
+    }
     
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { ... }
+@media (min-width: 992px) { 
+    .col-lg-2 {
+        flex-basis: calc((100% / 12) * 2);;
+    }
+}
 
