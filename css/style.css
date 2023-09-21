@@ -72,6 +72,7 @@ figure > img {
     --lime: #ADFF2F;
     --progress: 25%;
     --sidebar-width: 260px;
+    --distance-90: 90px;
 }
 
 .app {
@@ -214,10 +215,32 @@ figure > img {
 
 .app__main-content {
     background-color: var(--blue);
-    padding: 20px 10px;
 }
 
+/* main-header*/
+
+.app__main-content .main-header {
+    background-color: var(--dark-blue);
+    height: var(--distance-90);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
+.button.button-upgrade {
+    border: 2px solid currentColor;
+    line-height: 38px;
+    padding: 0px 40px;
+    border-radius: 999px;
+}
+
+
 /* main__content */
+
+.main__content {
+    padding: 20px 10px;
+}
 
 .row-content {
     flex-wrap: wrap;
