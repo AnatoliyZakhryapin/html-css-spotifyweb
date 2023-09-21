@@ -161,6 +161,12 @@ figure > img {
 .user-account .account-description {
     display: flex;
     gap: 10px;
+    align-items: center;
+}
+
+.account-description img {
+    border-radius: 999px;
+    background-color: var(--gray);
 }
 
 .nav-menu img, 
