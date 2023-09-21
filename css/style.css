@@ -216,6 +216,7 @@ figure > img {
 .app__main-content {
     background-color: var(--blue);
     position: relative;
+    overflow: auto;
 }
 
 /* main-header*/
