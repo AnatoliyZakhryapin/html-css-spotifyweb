@@ -215,6 +215,7 @@ figure > img {
 
 .app__main-content {
     background-color: var(--blue);
+    position: relative;
 }
 
 /* main-header*/
@@ -225,6 +226,11 @@ figure > img {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    padding-right: 10px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
     padding-right: 10px;
 }
 
