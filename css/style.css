@@ -247,7 +247,7 @@ figure > img {
     margin-bottom: 45px;
     row-gap: 45px;
     flex-wrap: wrap;
-    
+    text-transform: uppercase;
 }
 
 /* APP-TOOLBAR */
