@@ -216,7 +216,7 @@ figure > img {
 .app__main-content {
     background-color: var(--blue);
     position: relative;
-    overflow: auto;
+    overflow: hidden;
 }
 
 /* main-header*/
@@ -248,6 +248,8 @@ figure > img {
 
 .main__content {
     padding: var(--distance-90) 10px 20px 10px;
+    overflow-y: scroll;
+    height: 100%;
 }
 
 .row-content {
