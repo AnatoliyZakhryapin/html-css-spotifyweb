@@ -286,6 +286,16 @@ figure > img {
 
 .card .feature-image {
     margin-bottom: 20px;
+    position: relative;
+}
+
+.card i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+    display: none;
 }
 
 .card > * {
@@ -526,4 +536,12 @@ i.fa-solid:active {
     background-color: var(--lime);
 }
 
+.card figure:hover i {
+    display: block;
+}
 
+.card:hover img {
+    filter: brightness(0.4);
+    filter:  blur(3.5px);
+    opacity: 0.5;
+}
