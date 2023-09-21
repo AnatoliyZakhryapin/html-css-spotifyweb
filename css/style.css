@@ -209,6 +209,34 @@ figure > img {
     display: none;
 }
 
+/* APP__MAIN-CONTENT */ 
+
+.app__main-content {
+    background-color: var(--blue);
+}
+
+.row-content {
+    flex-wrap: wrap;
+}
+
+.card .feature-image {
+    margin-bottom: 20px;
+}
+
+.card > * {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.card .card-description {
+    color: var(--gray);
+}
+
+.row-title {
+    margin-bottom: 30px;
+}
+
+
 /* APP-TOOLBAR */
 
 .app__toolbar {
