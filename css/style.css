@@ -233,13 +233,14 @@ figure > img {
     line-height: 38px;
     padding: 0px 40px;
     border-radius: 999px;
+    text-transform: uppercase;
 }
 
 
 /* main__content */
 
 .main__content {
-    padding: 20px 10px;
+    padding: var(--distance-90) 10px 20px 10px;
 }
 
 .row-content {
@@ -267,10 +268,12 @@ figure > img {
     flex-direction: row;
     gap: 25px;
     justify-content: center;
+    margin-top: 20px;
     margin-bottom: 45px;
     row-gap: 45px;
     flex-wrap: wrap;
     text-transform: uppercase;
+
 }
 
 /* APP-TOOLBAR */
