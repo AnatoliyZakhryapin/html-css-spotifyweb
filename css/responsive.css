@@ -32,7 +32,12 @@
         align-items: flex-start;
     }
     
-
+    .section-dowland-app::after {
+        content: "";
+        width: 20px;
+        height: 4px;
+        background-color: var(--light-gray);
+    }
 
 }
 
