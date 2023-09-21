@@ -417,8 +417,15 @@ figure > img {
 
 .track-name:hover, 
 .album-controls i:hover,
-.nav-menu .list-item:hover {
+.nav-menu .list-item:hover,
+.fa-solid:hover,
+.playlist .description-action:hover,
+.playlist .section-list .list-item:hover {
     color: white;
+}
+
+.track-name:hover {
+    text-decoration: underline;
 }
 
 .nav-menu .list-item:hover img {
@@ -427,14 +434,26 @@ figure > img {
 
 .button:hover,
 .progress-handler:hover,
-.nav-menu .list-item:hover {
+.nav-menu .list-item:hover,
+.track-name:hover,
+.album-controls i:hover,
+.playlist .description-action:hover,
+.playlist .section-list .list-item:hover {
     scale: 1.3;
 }
 
 .button:active,
-.nav-menu .list-item:active {
+.nav-menu .list-item:active,
+.album-controls i:active,
+.fa-solid:active,
+.playlist .description-action:active,
+.playlist .section-list .list-item:active {
     scale: 1.2;
     color: var(--lime);
+}
+
+i.fa-solid:active {
+    scale: 1;
 }
 
 .button-upgrade:hover {
