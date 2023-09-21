@@ -242,6 +242,7 @@ figure > img {
     padding: 0px 40px;
     border-radius: 999px;
     text-transform: uppercase;
+    color: var(--gray);
 }
 
 
@@ -414,27 +415,43 @@ figure > img {
 
 /* HOVER RULES */
 
+.track-name:hover, 
+.album-controls i:hover,
+.nav-menu .list-item:hover {
+    color: white;
+}
+
+.nav-menu .list-item:hover img {
+   opacity: 1;
+}
+
 .button:hover,
-.progress-handler:hover {
-    scale: 1.5;
+.progress-handler:hover,
+.nav-menu .list-item:hover {
+    scale: 1.3;
+}
+
+.button:active,
+.nav-menu .list-item:active {
+    scale: 1.2;
+    color: var(--lime);
 }
 
 .button-upgrade:hover {
     scale: 1.2;
+    border-color: white;
+    color: white;
 }
 
 .button-upgrade:hover:active {
     scale: 1.1;
     color: var(--lime);
+    border-color: var(--lime);
 }
 
-.button:active {
-    scale: 1.3;
-    color: var(--lime);
-}
 
 .progress-handler:active {
-    scale: 1.3;
+    scale: 1.2;
     background-color: var(--lime);
 }
 
@@ -446,7 +463,4 @@ figure > img {
     background-color: var(--lime);
 }
 
-.track-name:hover, 
-.album-controls i:hover {
-    color: white;
-}
+
